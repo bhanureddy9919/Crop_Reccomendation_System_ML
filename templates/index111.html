@@ -1,0 +1,32 @@
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> CRS </title>
+    <link rel="stylesheet" type="text/css" href="static/css/styles.css"/>
+</head>
+<body>
+
+<div class="div1">
+    <p> Hi-Tech Agri </p>
+</div>
+<div id="div2">
+<ul><li>
+ <a href="{{ url_for('home')}}"> HOME </a> </li>
+<li> <a href="{{ url_for('about')}}"> ABOUT </a> </li>
+    <li> <a href="{{ url_for('cropa')}}"> CROP DETAILS </a> </li></ul>
+</div>
+<div class="div3">
+    <img src="d11.jpg"/>
+  <div class="center"> CROP RECOMMENDATION<br>
+      &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp SYSTEM </br></div>
+    <ul><li>
+ <a href="{{ url_for('cr')}}"> CROP RECOMENDER </a> </li>
+        <li> <a href="{{ url_for('crop')}}"> SOIL PARAMETERS </a> </li></ul>
+</div>
+<div id="div4">
+<p>@Copyrights</p>
+</div>
+</body>
+</html>
